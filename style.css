@@ -1,0 +1,53 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+.input-group {
+  gap: 10px;
+}
+.form-control {
+  border-radius: 0.4rem;
+}
+.btn {
+  border-radius: 0.4rem;
+}
+
+.bg-img1 {
+  background-image: url(10072018_ronaldo_juventus.jpg);
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-img2 {
+  background-image: url(cristiano-ronaldos-39th-birthday-20240205173527-2053.jpg);
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-img3 {
+  background-image: url(real-madrid-bat-ngo-mua-lai-ronaldo-gia-50-trieu-bang-16514540170905822516.webp);
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.carousel-item {
+  height: 50vh;
+}
+
+.ps-5 {
+  padding-left: 6rem !important;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
